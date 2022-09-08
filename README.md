@@ -18,8 +18,6 @@ dotnet build
 dotnet run
 ```
 
-```
-
 # Install npm packages
 
 ```
