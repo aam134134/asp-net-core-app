@@ -14,8 +14,21 @@ dotnet new angular -o asp-net-core-app
 
 ```
 export ASPNETCORE_ENVIRONMENT=Development
-
 dotnet build
-
 dotnet run
+```
+
+```
+
+# Install npm packages
+
+```
+cd ClientApp
+npm install <package>
+```
+
+# Run "ng serve" independently (faster?)
+```
+cd ClientApp
+npm start
 ```
